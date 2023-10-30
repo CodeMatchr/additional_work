@@ -1,0 +1,144 @@
+#board-write-wrapper {
+margin-top: 100px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.board-write-container {
+    margin: 0 auto;
+
+    border-radius: 15px;
+
+
+    width: 1400px;
+    height: 600px;
+
+    background-color:#D9D9D9;
+}
+
+.board-write-title-input {
+    margin-top: 50px;
+    margin-left: 30px;
+
+    font-size: 25px;
+    color:black;
+    font-weight: bold;
+
+    width: 95%;
+    height: 50px;
+}
+
+.board-write-content-container {
+    margin: 0 auto;
+}
+
+.board-write-content {
+    margin-top: 100px;
+    margin-left: 30px;
+
+    font-size: 30px;
+    font-weight: bold;
+
+    width: 95%;
+    height: 300px;
+}
+
+.board-button-container{
+    width: 300px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.board-write-button{
+    width: 100px;
+    height: 50px;
+
+    border-radius: 15px;
+
+    text-align: center;
+    line-height: 50px;
+    
+    background-color: #D9D9D9;
+}
+
+.board-write-button:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+.board-cancle-button {
+    width: 100px;
+    height: 50px;
+
+    border-radius: 15px;
+
+    text-align: center;
+    line-height: 50px;
+
+    background-color: #D9D9D9;
+}
+
+.board-cancle-button:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.08);
+}
+
+.board-image-container {
+    position: relative;
+    top: 100px;
+
+    width: 97%;
+    height: 1px;
+}
+
+
+.image-upload {
+    width: 70px;
+    height: 30px;
+
+    border-radius: 15px;
+
+    background-color: white;
+
+    text-align: center;
+    line-height: 30px;
+
+    float: right;
+}
+
+.image-upload:hover {
+    cursor: pointer;
+
+    background-color:aliceblue;
+}
+.board-write-image-container {  
+    position: relative;
+}
+
+.board-write-image {
+    width: 100%;
+
+    display: block;
+
+}
+
+/**.board-write-image-delete-button{
+    width: 24px;
+    height: 24px;
+
+    position: absolute;
+
+    top: 20px;
+    right: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}**/
+
+.board-write-image-delete-button:hover {
+    cursor: pointer;
+}
